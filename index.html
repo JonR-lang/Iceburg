@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./dist/main.css">
+    <script src="https://kit.fontawesome.com/1133ab92e0.js" crossorigin="anonymous"></script>
+    <title>The IceBurg</title>
+</head>
+<body>
+    <!--hero section-->
+    <div  class="container  mx-auto flex flex-col bg-[url(../images/hero-img.jpg)] w-full h-viewPort bg-cover bg-right bg-no-repeat">
+        <header>
+            <nav class="flex container fixed top-0 w-full bg-black/20 justify-between items-center py-2  ">
+                <div class="">
+                    <h1 class="text-white ml-2 font-rubik-dirt text-xl md:text-3xl ">
+                        The Ice<span class="text-red-600">Burg</span>
+                    </h1>
+                </div>
+                <div class="">
+                    <ul class="hidden lg:flex -ml-10 font-quick-sand lg:space-x-6 xl:space-x-8 text-white">
+                        <li><a class="hover:text-red-600 transition duration-300 ease-in-out " href="index.html">Home</a></li>
+                        <li><a class="hover:text-red-600 transition duration-300 ease-in-out " href="#">Products</a></li>
+                        <li><a class="hover:text-red-600 transition duration-300 ease-in-out " href="#">Create</a></li>
+                        <li><a class="hover:text-red-600 transition duration-300 ease-in-out " href="#">About</a></li>
+                        <li><a class="hover:text-red-600 transition duration-300 ease-in-out " href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="lg:hidden"><i class="fa-solid fa-bars mr-2 text-white hover:text-red-600 pt-2"></i></div>
+                <div class="hidden lg:block mr-2">
+                    <button class=" font-quick-sand text-white font-bold border-2 border-red-600 rounded-full px-4 py-1 hover:bg-red-700 duration-500 ease-in-out ">Log In</button>
+                </div>
+            </nav>    
+        </header>
+        <div class= "h-full p-2 flex justify-center items-center lg:justify-start">
+            <div class="w-5/6 md:w-1/3 flex flex-col justify-between items-center gap-4 lg:gap-6">
+                <h1 class="text-white text-center lg:text-left font-climate-crisis text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">
+                    HUNGRY?<span class="text-yellow-500"> LET'S</span> <span class="text-red-700">MEAT</span> <span class="text-white">UP!</span>
+                </h1>
+                <button class="lg:self-start font-jost text-white font-bold text-sm md:text-base lg:text-xl border-4 border-red-700 rounded-full px-6 py-2 hover:bg-red-700 transition duration-300 ease-in-out">Quick Order</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- the first section -->
+    <div class="container mx-auto w-full flex flex-col bg-black p-2 gap-4 text-white">
+
+        <h1 class="text-center font-archivo-black text-2xl sm:text-3xl md:text-4xl py-6">Today's <span class="text-red-600">Poison</span></h1>
+        <div class="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-3">
+
+            <div class="card h-full  flex flex-col justify-between">
+                <div class="flex justify-center items-center">
+                    <img class="w-full" src="./images/burger-1.JPG" alt="burger-1">
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <h2 class="font-bold">
+                            The Tsunami
+                        </h2>
+                        <p class="text-yellow-500 font-bold">
+                            $499.99
+                        </p>
+                    </div>
+                    <p class="text-xs">
+                        Stuffed with extra beef, you get the feel of the biblical paradise, in between two buns!
+                    </p>
+                    <div class="flex gap-1">
+                        <button class="py-2 px-4 w-3/4 bg-red-700/80 hover:bg-red-700/60">Order Now</button>
+                        <button class="py-2 px-4 w-1/4 bg-red-700/80 hover:bg-red-700/60"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card flex flex-col">
+                <div class="flex justify-center items-center">
+                    <img class="w-full" src="./images/burger-2.JPG" alt="burger-2">
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <h2 class="font-bold">
+                            Impaled Cow
+                        </h2>
+                        <p class="text-yellow-500 font-bold">
+                            $299.99
+                        </p>
+                    </div>
+                    <p class="text-xs">
+                        Impaled before, during, and after death. Why experience hell when you can taste it?
+                    </p>
+                    <div class="flex gap-1">
+                        <button class=" py-2 px-4 w-3/4 bg-red-700/80 hover:bg-red-700/60">Order Now</button>
+                        <button class=" py-2 px-4 w-1/4 bg-red-700/80 hover:bg-red-700/60"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card flex flex-col">
+                <div class="flex justify-center items-center">
+                    <img class="w-full" src="./images/burger-3.JPG" alt="burger-3">
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <h2 class="font-bold">
+                            Gunpowder
+                        </h2>
+                        <p class="text-yellow-500 font-bold">
+                            $143.99
+                        </p>
+                    </div>
+                    <p class="text-xs">
+                        Garnished with gunpowder, you experience the thrill that comes with pulling the trigger !
+                    </p>
+                    <div class="flex gap-1">
+                        <button class=" py-2 px-4 w-3/4 bg-red-700/80 hover:bg-red-700/60">Order Now</button>
+                        <button class=" py-2 px-4 w-1/4 bg-red-700/80 hover:bg-red-700/60"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card flex flex-col">
+                <div class="flex justify-center items-center">
+                    <img class="w-full" src="./images/burger-4.JPG" alt="burger-4">
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <h2 class="font-bold">
+                            The Letter X
+                        </h2>
+                        <p class="text-yellow-500 font-bold">
+                            $404.99
+                        </p>
+                    </div>
+                    <p class="text-xs">
+                        X is the 24th letter of the alphabet. The wisdom of that was used to make this!
+                    </p>
+                    <div class="flex gap-1">
+                        <button class="py-2 px-4 w-3/4 bg-red-700/80 hover:bg-red-700/60">Order Now</button>
+                        <button class="py-2 px-4 w-1/4 bg-red-700/80 hover:bg-red-700/60"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+        </div>
+    </div>
+</body>
+</html>

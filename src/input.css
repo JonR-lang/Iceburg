@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Climate+Crisis&family=Jost:wght@100;200;300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .card {
+        @apply
+        w-full max-w-[300px] font-jost flex flex-col gap-2
+    }
+
+}
